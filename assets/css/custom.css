@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Cerebri Sans";
+    src: url("assets/fonts/cerebrisans-bold.eot");
+}
+.checkbox label::before{
+	margin-left: unset;
+	top: -16px;
+}
+.checkbox input[type=checkbox]:checked+label::after{
+	top: -12px;
+	left: 25px;
+}
+
+.select2-container{
+	display: block;
+}
